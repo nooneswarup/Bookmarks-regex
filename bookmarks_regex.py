@@ -6,7 +6,7 @@ def remove_duplicates(x):
     return list(dict.fromkeys(x))
 
 
-# boorkmarks.html consists of all the bookmarks you have. 
+# bookmarks.html consists of all the bookmarks you have. 
 # if you have multiple bookmarks files, just concatinate them to one file and name it a bookmarks.html
 with open("bookmarks.html", 'r', encoding="utf-8") as f:
     data = f.read()
